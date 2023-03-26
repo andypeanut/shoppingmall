@@ -22,6 +22,9 @@ dependencies {
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	// https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client
+	implementation("org.mariadb.jdbc:mariadb-java-client:3.1.2")
+
 }
 
 tasks.withType<KotlinCompile> {
